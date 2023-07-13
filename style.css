@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;500&display=swap');
+*{
+ margin: 0;
+ padding: 0;
+ font-family: 'Lato',sans-serif;
+ list-style: none;
+}
+:root{
+    --cor-texto: #39bcff;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    
+}
+.logosx{
+    width: 250px;
+    margin: 30px;
+    margin-left: 300px;
+}
+header{
+    box-shadow: 1px 1px 10px rgb(160, 160, 160);
+}
+.main-section{
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    background-image: url('https://sps.sxgrupo.com.br/hubfs/lp%20textura.png') !important;
+    
+}
+.texto-main{
+   display: flex;
+   flex-direction: column;
+   align-items: justify;
+   justify-content: center;
+   gap: 30px;
+   color: white;
+   width: 680px;
+}
+#sxpoker{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+#titulo{
+    margin-bottom: 50px;
+    color: var(--cor-texto);
+    text-transform: uppercase;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 50px;
+}
+.paragrafo{
+    font-size: 18px;
+    font-weight: 600;
+}
+.form{
+    display: flex;
+    flex-wrap: wrap;
+    width: 380px;
+    background-color: rgb(255, 255, 255);
+    padding: 30px;
+    border-radius: 10px;
+    margin: 80px;
+    height: 762px;
+
+}
+.form p{
+    color: var(--cor-texto);
+    font-weight: bold;
+    font-size: larger;
+    text-align: center;
+}
+.input-text{
+    width: 400px;
+    margin-bottom: 20px;
+    background-color: rgb(226, 226, 226);
+    border: none;
+    padding-left: 10px;
+    border-radius: 7px;
+    font-size: 20px;
+}
+.submit{
+    background-color: var(--cor-texto);
+    padding: 3px 155px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    width: 100%;
+    font-weight: bold;
+    font-size: large;
+}
+.submit:hover{
+    background-color: #0a6491;
+    cursor: pointer;
+}
+.rodape{
+    background-color: rgb(0, 0, 0);
+    height: 297px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+    
+}
+.social{
+    padding: 50px 0px 0px 50px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    gap: 20px;
+
+}
+.copy{
+    margin-left: 50px;
+    
+}
+.btn-subir {
+    position: absolute;
+    right: 50px;
+    bottom: 50px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    display: none;
+    
+}
+
+.fixedElement {
+    display: block;
+    position: fixed;
+}
+
+
+.icon:hover{
+    width: 45px;
+    box-shadow: 2px 5px 5px var(--cor-texto);
+    transition: 0.5s;
+    border-radius: 15px;
+}
+
+tr{
+    display: flex;
+}
+
+td{
+    border: solid 1px rgb(255, 255, 255);
+    min-width: 200px;
+    max-width: 200px;
+    text-align: center;
+    padding: 10px;
+}
+.tabela1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-image: url('https://sps.sxgrupo.com.br/hubfs/lp%20textura.png') !important;
+    color: white;
+}
+.titulo{
+    font-weight: bold;
+    color: var(--cor-texto);
+}
+.info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+   
+}
+.sobre{
+    font-size: 20px;
+}
+.cara{
+    object-fit: contain;
+}
+.sxbtn{
+    padding: 10px;
+    background-color: white;
+    color: var(--cor-texto);
+    border-radius: 7px;
+    border: solid 2px var(--cor-texto);
+    font-size: 15px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+.sxbtn:hover{
+    background-color: var(--cor-texto);
+    color: white;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.sobre{
+    width: 600px;
+    text-align: justify;
+}
+.teste{
+    position: absolute;
+    background-color: rgb(255,0,0,0.6);
+    box-shadow: 2px 2px 10px 10px  rgb(240, 144, 127);
+    color: white;
+    padding: 10px;
+    margin-top: 20%;
+    margin-left: 50px;
+    border-radius: 7px;
+    font-size: 20px;
+    display: none;
+}

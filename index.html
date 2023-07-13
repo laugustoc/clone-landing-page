@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" class="style">
+    <title>Landing Page</title>
+</head>
+
+<body>
+    <header id="cabecalho">
+        <img src="logosx.webp" alt="" class="logosx">
+    </header>
+    <main>
+        <section class="main-section">
+            <div class="texto-main">
+                <p id="sxpoker">SXPOKER2 - ID: 32442</p>
+                <h3 id="titulo">Jogue poker pelo maior clube do Brasil!</h3>
+                <p class="paragrafo">Ganhe muito dinheiro enquanto se diverte jogando pelo maior clube de Poker do
+                    Brasil.<br><br>
+                    Aqui na SX, você tem todas as oportunidades e suporte para jogar quando e onde quiser.<br><br>
+                    Todos os dias um jogador se torna um campeão e você pode ser o próximo!</p>
+            </div>
+            <div class="form">
+                <div class="teste"></div>
+                <p>Preencha o formulário para fazer parte do clube e jogar com a SX!</p>
+                <label for="">Nome<text style="color: red;">*</text></label>
+                <input id="nome" class="input-text" type="text">
+                <label for="">Email<text style="color: red;">*</text></label>
+                <input id="email" class="input-text" type="text">
+                <label for="">Número de telefone do WhatsApp<text style="color: red;">*</text></label>
+                <input id="telefone" class="input-text" type="text">
+                <label for="">ID de jogador<text style="color: red;">*</text></label>
+                <input id="idJogador" class="input-text" type="text">
+                <label for="">Nome do clube<text style="color: red;">*</text></label>
+                <input id="clube" class="input-text" type="text">
+                <button id="botao" class="submit" onclick="validar()">Enviar</button>
+            </div>
+        </section>
+        <div class="info">
+            <div class="sobre">
+                <h3 id="titulo">Conheça a SX</h3>
+                <p>A Sx é um conglomerado com mais de 70 clubes, gerenciado por especialistas no assunto, que garantem aos jogadores uma experiência divertida, prática e segura.<br><br>
+                O nosso clube visa trazer a melhor experiência possível para todos os jogadores, sejam eles
+                profissionais ou amadores. De conceitos inovadores aos mais modernos sistemas de segurança , nós oferecemos tudo o que você procura em uma plataforma de poker online.<br><br>
+                Aqui é possível jogar múltiplas modalidades de poker e até mesmo de forma gratuita, não falta
+                diversão. Afinal, somos o clube Supremo com mais jogadores e agentes ativos!</p>
+                <button class="sxbtn" id="botaoSX">SEJA UM JOGADOR SX</button>
+    
+            </div>
+            <div class="imagem2"><img class="cara"
+                    src="https://sps.sxgrupo.com.br/hs-fs/hubfs/homem-que-ri-com-muitas-fichas-de-casino2.png?width=400&amp;height=400&amp;name=homem-que-ri-com-muitas-fichas-de-casino2.png"
+                    alt="homem-que-ri-com-muitas-fichas-de-casino2" loading="lazy" width="600" height="600px"
+                    srcset="https://sps.sxgrupo.com.br/hs-fs/hubfs/homem-que-ri-com-muitas-fichas-de-casino2.png?width=1000&amp;height=1304&amp;name=homem-que-ri-com-muitas-fichas-de-casino2.png 1000w, https://sps.sxgrupo.com.br/hs-fs/hubfs/homem-que-ri-com-muitas-fichas-de-casino2.png?width=2000&amp;height=2607&amp;name=homem-que-ri-com-muitas-fichas-de-casino2.png 2000w, https://sps.sxgrupo.com.br/hs-fs/hubfs/homem-que-ri-com-muitas-fichas-de-casino2.png?width=3000&amp;height=3911&amp;name=homem-que-ri-com-muitas-fichas-de-casino2.png 3000w, https://sps.sxgrupo.com.br/hs-fs/hubfs/homem-que-ri-com-muitas-fichas-de-casino2.png?width=4000&amp;height=5214&amp;name=homem-que-ri-com-muitas-fichas-de-casino2.png 4000w, https://sps.sxgrupo.com.br/hs-fs/hubfs/homem-que-ri-com-muitas-fichas-de-casino2.png?width=5000&amp;height=6518&amp;name=homem-que-ri-com-muitas-fichas-de-casino2.png 5000w, https://sps.sxgrupo.com.br/hs-fs/hubfs/homem-que-ri-com-muitas-fichas-de-casino2.png?width=6000&amp;height=7821&amp;name=homem-que-ri-com-muitas-fichas-de-casino2.png 6000w"></div>
+            </div>
+    </main>
+    
+
+    <footer class="rodape">
+        <div class="social">
+            <img src="https://sps.sxgrupo.com.br/hubfs/logo-sx-co.png" alt=""><br>
+            <a href="https://www.instagram.com/sx.poker/"><svg class="icon" version="1.0"
+                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" aria-labelledby="instagram1" role="img"
+                    width="40px" style="fill: rgba(255,255,255,100%);">
+                    <title id="instagram1">instagram icon</title>
+                    <g id="instagram1_layer">
+                        <path
+                            d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z">
+                        </path>
+                    </g>
+                </svg></a>
+            <a href="https://www.linkedin.com/company/grupo-sx/mycompany/"><svg class="icon" version="1.0"
+                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" aria-labelledby="linkedin2" role="img"
+                    width="40px" style="fill: rgba(255,255,255,100%);">
+                    <title id="linkedin2">linkedin icon</title>
+                    <g id="linkedin2_layer">
+                        <path
+                            d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z">
+                        </path>
+                    </g>
+                </svg></a>
+        </div>
+        <p style="color: white;" class="copy">Copyright © 2023. Todos os direitos reservados. Filipe.</p>
+        <button class="btn-subir" onclick="voltar()">
+            <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="24" cy="24" r="24" fill="#39bcff"></circle>
+                <path d="M24 35L24 13" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                </path>
+                <path d="M33 22L24 13L15 22" stroke="#ffffff" stroke-width="2" stroke-linecap="round"
+                    stroke-linejoin="round"></path>
+            </svg>
+        </button>
+        
+    </footer>
+
+
+
+    <script src="script.js"></script>
+    <script>
+        
+
+        // Obtém o elemento do botão pelo ID
+        var botao = document.getElementById('botaoSX');
+    
+        // Adiciona um ouvinte de evento para o clique no botão
+        botao.addEventListener('click', function() {
+            // Obtém a posição vertical do elemento de destino
+            var elementoDestino = document.getElementById('cabecalho');
+            var posicao = elementoDestino.offsetTop;
+    
+            // Rola a página para a posição do elemento de destino em 1.5 segundos
+            window.scrollTo({
+                top: posicao,
+                behavior: 'smooth',
+                duration: 1500
+            });
+        });
+    </script>
+    
+</body>
+
+</html>
